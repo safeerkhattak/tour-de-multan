@@ -17,5 +17,11 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: transparent !important; /* Force transparent background */
+  color: var(--foreground); /* Match theme text color */
+  position: relative; /* Ensure positioning works with content below */
+  z-index: 10; /* Keep header above content */
 }
