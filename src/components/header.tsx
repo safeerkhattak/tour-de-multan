@@ -237,9 +237,8 @@
 import Image from 'next/image';
 import React from 'react';
 
-type Props = {};
 
-const Header = (props: Props) => {
+const Header = () => {
   return (
     <header className="fixed w-full bg-transparent z-50">
       <nav
