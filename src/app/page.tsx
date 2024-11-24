@@ -184,7 +184,7 @@ export default function Home() {
         {/* Description */}
         <div className="text-white text-base sm:text-lg md:text-xl font-semibold leading-relaxed mb-6 sm:mb-8">
           <p>
-            Multan, nicknamed 'The City of Saints', has been a place of interest for tourists because of its spiritual
+            Multan, nicknamed &apos;The City of Saints&apos;, has been a place of interest for tourists because of its spiritual
             thrust and gaudy shrines. It is one of the oldest cities of Pakistan with almost 5,000 years of history,
             heritage, and culture dripping from its buildings. One of the must-visit places here is the Tomb of Shah Ali Akbar,
             a rustic structure with exquisite blue tile and mirror work reflecting Islamic architecture and design. The tomb
@@ -194,7 +194,7 @@ export default function Home() {
 
         {/* Motto */}
         <div className="mt-6 text-white text-2xl sm:text-3xl font-bold italic">
-          <p>"Explore the Unexplored"</p>
+          <p>&quot;Explore the Unexplored&quot;</p>
         </div>
       </div>
     </div>
