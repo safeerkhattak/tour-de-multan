@@ -5,9 +5,14 @@ import React from 'react';
 const Header = () => {
   return (
     <header className="fixed w-full z-50">
-      <nav
+      {/* <nav
         className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8 
-        text-white lg:bg-[#fd904a] lg:bg-opacity-80 lg:backdrop-blur"
+        text-white lg:bg-[rgba(0,64,128,0.85)] lg:bg-opacity-80 lg:backdrop-blur-sm"
+        aria-label="Global"
+      > */}
+         <nav
+        className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8 
+        text-white"
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
@@ -47,7 +52,7 @@ const Header = () => {
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
           <a href="#" className="text-sm font-semibold hover:text-gray-300">
-            About Multan
+            Home
           </a>
           <a href="#" className="text-sm font-semibold hover:text-gray-300">
             Marketplace
@@ -56,13 +61,34 @@ const Header = () => {
             Company
           </a>
         </div>
-        <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a
+        <div className="hidden lg:flex lg:flex-1 lg:justify-end lg:space-x-4">
+          {/* <a
             href="#"
             className="text-sm font-semibold hover:text-gray-300"
           >
             Log in <span aria-hidden="true">&rarr;</span>
-          </a>
+          </a> */}
+             <Image
+              className="cursor-pointer"
+              src="/twitter.svg"
+              alt="logo"
+              width={26}
+              height={26}
+            />
+                 <Image
+              className="cursor-pointer"
+              src="/instagram.svg"
+              alt="logo"
+              width={26}
+              height={26}
+            />
+                 <Image
+              className="cursor-pointer"
+              src="/facebook.svg"
+              alt="logo"
+              width={26}
+              height={26}
+            />
         </div>
       </nav>
 
@@ -129,12 +155,19 @@ const Header = () => {
               </a>
             </div>
             <div className="py-6">
-              <a
+              {/* <a
                 href="#"
                 className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold text-white hover:bg-gray-700"
               >
                 Log in
-              </a>
+              </a> */}
+               <Image
+              className="h-8 w-auto"
+              src="/tour-de-multan.png"
+              alt="logo"
+              width={50}
+              height={50}
+            />
             </div>
           </div>
         </div>
